@@ -1,0 +1,31 @@
+{
+  "name": "unit.sticky-sidebar",
+  "version": "1.0.0",
+  "description": "На сайте онлайн-маркета «UNIT» «липкой» становится вся боковая панель, в которую входят:\r - навигация по категориям товаров,\r - рекламный баннер.",
+  "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/css/**/*.css\" --syntax css",
+    "test": "npm run editorconfig && npm run stylelint",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andgt/unit.sticky-sidebar.git"
+  },
+  "author": "antgt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andgt/unit.sticky-sidebar/issues"
+  },
+  "homepage": "https://github.com/andgt/unit.sticky-sidebar#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "build": "^0.1.4",
+    "editorconfig": "^0.15.3",
+    "gh-pages": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "stylelint": "^13.11.0"
+  }
+}
