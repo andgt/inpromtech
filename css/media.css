@@ -908,7 +908,16 @@ display: none !important;
 
 	.breadcrumbs {
 		margin-top: 133px;
-}
+	}
+
+	.article-container {
+		max-width: 960px;
+	}
+
+	.article-container__img-wrapper {
+		max-width: 768px;
+		margin-bottom: 30px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -935,6 +944,11 @@ display: none !important;
 
 	.col-lg-4 .card__link {
 		margin-left: -58px;
+	}
+
+	.article-container__img-wrapper {
+		max-width: 1097px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -972,15 +986,19 @@ display: none !important;
 		background-color: #ed6f14;
 	}
 
-	.title-section--blog {
+	.title-section--article {
 		font-size: 40px;
-		line-height: 38px;
+		line-height: 45px;
 	}
 
 	.card__content {
 		max-width: 50%;
 		margin: 0;
 		padding: 5.291005291005291% 5.079365079365079% 5.291005291005291% 6.772486772486772%;
+	}
+
+	.article-container {
+		max-width: 1336px;
 	}
 }
 

@@ -1675,6 +1675,7 @@ color: rgba(255, 255, 255, 0.3);
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
+	margin: 0;
 }
 
 .breadcrumbs li span {
@@ -1696,4 +1697,79 @@ color: rgba(255, 255, 255, 0.3);
 
 .breadcrumbs ol li:not(:last-of-type) span:hover {
 	color: #ffffff;
+}
+
+.article-container{
+	position: relative;
+	max-width: 300px;
+	margin: 33px auto 0 auto;
+	padding:  3.667664670658683% 8.75748502994012% 7.934131736526946% 8.682634730538922%;
+	background-color: #181719;
+}
+
+.title-section--blog {
+	margin-bottom: 27px;
+	text-align: left;
+}
+
+.article__date {
+	position: absolute;
+	top: 45px;
+	left: -19px;
+	display: flex;
+	flex-direction: column;
+	width: 65px;
+	height: 65px;
+	padding: 17px 18px 14px 20px;
+	background-color: #1e1d1e;
+	border-radius: 50%;
+}
+
+.date {
+	color: #5f5f62;
+	text-align: center;
+}
+
+.date-number {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+}
+
+.date-month {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.date-btn {
+	display: block;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+	width: 24px;
+	height: 24px;
+	background-color: #ed6f14;
+	background-image: url("../img/date-menu-btn.svg");
+	background-repeat: no-repeat;
+	background-size: 12px 12px;
+	background-position: center center;
+	border: 0;
+	border-radius: 50%;
+	transition: 0.3s ease;
+}
+
+.date-btn:hover {
+	transform: scale(1.05);
+}
+
+.article-container__img-wrapper {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+}
+
+.article-container__img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
 }
