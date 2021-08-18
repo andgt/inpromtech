@@ -864,7 +864,7 @@ display: none !important;
 	}
 
 	.card__title-wrapper {
-		padding-top: 181px;
+		padding-top: 33px;
 		margin-bottom: 112px;
 	}
 
@@ -900,6 +900,15 @@ display: none !important;
 	.card__description {
 		margin-bottom: 25px;
 	}
+
+	.card__btn-more {
+		margin-top: 96px;
+		margin-bottom: 53px;
+	}
+
+	.breadcrumbs {
+		margin-top: 133px;
+}
 }
 
 @media (min-width: 1200px) {
