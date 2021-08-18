@@ -1523,7 +1523,7 @@ color: rgba(255, 255, 255, 0.3);
 }
 
 .card__title-wrapper {
-	padding-top: 120px;
+	padding-top: 20px;
 	margin-bottom: 40px;
 }
 
@@ -1537,6 +1537,7 @@ color: rgba(255, 255, 255, 0.3);
 }
 
 .card__link {
+	font-family: "Gotham Pro", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
@@ -1633,7 +1634,7 @@ color: rgba(255, 255, 255, 0.3);
 	position: relative;
 	display: block;
 	max-width: 145px;
-	margin: 96px auto 53px auto;
+	margin: 46px auto 23px auto;
 	padding: 52px 21px 52px 22px;
 	font-size: 16px;
 	line-height: 24px;
@@ -1664,4 +1665,35 @@ color: rgba(255, 255, 255, 0.3);
 .card__btn-more:hover::before,
 .card__btn-more:focus::before {
 	transform: rotate(360deg);
+}
+
+.breadcrumbs {
+	margin-top: 110px;
+}
+
+.breadcrumbs ol {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.breadcrumbs li span {
+	font-size: 12px;
+	line-height: 18px;
+	color: #5f5f62;
+	transition: 0.3s ease;
+}
+
+.breadcrumbs ol li {
+	position: relative;
+}
+
+.breadcrumbs ol li:not(:last-of-type)::after {
+	content: '/';
+	margin: 0 4px;
+	color: #5f5f62;
+}
+
+.breadcrumbs ol li:not(:last-of-type) span:hover {
+	color: #ffffff;
 }
