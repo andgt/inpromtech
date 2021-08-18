@@ -1612,3 +1612,56 @@ color: rgba(255, 255, 255, 0.3);
 .pages__list a {
 	color: #ffffff;
 }
+
+.card__btn-link {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin-top: auto;
+	margin-left: auto;
+	background-image: url("data:image/svg+xml,%3Csvg width='65' height='65' viewBox='0 0 65 65' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='32.5' cy='32.5' r='32.5' fill='%23C4C4C4' fill-opacity='0.1'/%3E%3Cpath d='M48.3453 32.4169L39.7052 23.1689C39.4961 22.949 39.1386 22.9474 38.9373 23.1433C38.7326 23.3423 38.7176 23.7077 38.9119 23.9169L46.6913 32.2469H15.54C15.2418 32.2469 15 32.4905 15 32.7909C15 33.0914 15.2418 33.3349 15.54 33.3349H46.6913L38.9119 41.6649C38.7174 41.8741 38.7294 42.2427 38.9373 42.4386C39.1449 42.6344 39.4792 42.6392 39.7052 42.413L48.3453 33.165C48.5506 32.9104 48.4966 32.5983 48.3453 32.4169Z' fill='white' fill-opacity='0.35'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.3s linear;
+}
+
+.card__btn-link:hover {
+	background-image: url("data:image/svg+xml,%3Csvg width='65' height='88' viewBox='0 0 65 88' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d)'%3E%3Ccircle cx='32.5' cy='32.5' r='32.5' fill='url(%23paint0_linear)'/%3E%3C/g%3E%3Cpath d='M48.3453 32.4169L39.7052 23.1689C39.4961 22.949 39.1386 22.9474 38.9373 23.1433C38.7326 23.3423 38.7176 23.7077 38.9119 23.9169L46.6913 32.2469H15.54C15.2418 32.2469 15 32.4905 15 32.7909C15 33.0914 15.2418 33.3349 15.54 33.3349H46.6913L38.9119 41.6649C38.7174 41.8741 38.7294 42.2427 38.9373 42.4386C39.1449 42.6344 39.4792 42.6392 39.7052 42.413L48.3453 33.165C48.5506 32.9104 48.4966 32.5983 48.3453 32.4169Z' fill='white'/%3E%3Cdefs%3E%3Cfilter id='filter0_d' x='0' y='0' width='65' height='88' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeMorphology radius='18' operator='erode' in='SourceAlpha' result='effect1_dropShadow'/%3E%3CfeOffset dy='25'/%3E%3CfeGaussianBlur stdDeviation='8'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow' result='shape'/%3E%3C/filter%3E%3ClinearGradient id='paint0_linear' x1='-0.728699' y1='7.0909' x2='65.9586' y2='10.7794' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23E33A29'/%3E%3Cstop offset='1' stop-color='%23ED6F14'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.card__btn-more {
+	position: relative;
+	display: block;
+	max-width: 145px;
+	margin: 96px auto 53px auto;
+	padding: 52px 21px 52px 22px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #5f5f62;
+	border:  0;
+	background-color: transparent;
+}
+
+.card__btn-more::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 132px;
+	height: 145px;
+	background-image: url("data:image/svg+xml,%3Csvg width='139' height='145' viewBox='0 0 139 145' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M134.356 96.9513C137.431 98.1667 138.96 101.658 137.496 104.622C132.523 114.683 125.269 123.479 116.28 130.289C105.697 138.307 93.1144 143.264 79.906 144.621C66.6976 145.977 53.3704 143.68 41.3781 137.98C29.3858 132.281 19.1891 123.397 11.9003 112.299C4.61145 101.2 0.510449 88.3132 0.0446267 75.0435C-0.421196 61.7738 2.76606 48.631 9.2587 37.0488C15.7513 25.4666 25.3 15.8898 36.8631 9.36316C46.6839 3.81991 57.6374 0.657712 68.8459 0.0921143C72.1479 -0.0745118 74.7444 2.71629 74.6381 6.02078C74.5318 9.32528 71.7613 11.8871 68.4624 12.1076C59.4495 12.7102 50.6587 15.3248 42.7482 19.7897C33.0947 25.2386 25.1229 33.2338 19.7025 42.9033C14.2821 52.5728 11.6212 63.5451 12.0101 74.6235C12.399 85.7018 15.8227 96.4605 21.9079 105.726C27.993 114.992 36.5058 122.408 46.5176 127.167C56.5295 131.925 67.6558 133.843 78.683 132.711C89.7101 131.578 100.215 127.439 109.05 120.745C116.291 115.26 122.183 108.232 126.317 100.2C127.83 97.2605 131.282 95.7359 134.356 96.9513Z' fill='url(%23paint0_linear)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='62.35' y1='-15.95' x2='145' y2='86.275' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23ED6D15'/%3E%3Cstop offset='0.479167' stop-color='%23E32B48'/%3E%3Cstop offset='1' stop-color='%23E43D29' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 1.3s ease;
+}
+
+
+.card__btn-more:hover,
+.card__btn-more:focus {
+	color: #ed6f14;
+}
+
+.card__btn-more:hover::before,
+.card__btn-more:focus::before {
+	transform: rotate(360deg);
+}

@@ -1,7 +1,7 @@
 {
-  "name": "unit.sticky-sidebar",
+  "name": "inpromtec",
   "version": "1.0.0",
-  "description": "На сайте онлайн-маркета «UNIT» «липкой» становится вся боковая панель, в которую входят:\r - навигация по категориям товаров,\r - рекламный баннер.",
+  "description": "inpromtec",
   "main": "index.js",
   "scripts": {
     "editorconfig": "editorconfig-cli",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andgt/unit.sticky-sidebar.git"
+    "url": "git+https://github.com/andgt/inpromtech.git"
   },
   "author": "antgt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andgt/unit.sticky-sidebar/issues"
+    "url": "https://github.com/andgt/inpromtech/issues"
   },
-  "homepage": "https://github.com/andgt/unit.sticky-sidebar#readme",
+  "homepage": "https://github.com/andgt/inpromtech#readme",
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "build": "^0.1.4",
