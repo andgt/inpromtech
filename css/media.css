@@ -912,11 +912,65 @@ display: none !important;
 
 	.article-container {
 		max-width: 960px;
+		margin: 33px auto 0 auto;
+		padding: 39px 107px 96px 106px;
 	}
 
 	.article-container__img-wrapper {
 		max-width: 768px;
 		margin-bottom: 30px;
+	}
+
+	.article__date {
+		top: 45px;
+		left: 19px;
+		width: 65px;
+		height: 65px;
+		padding: 17px 18px 14px 20px;
+	}
+
+	article p {
+		margin-bottom: 24px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	article h2 {
+		margin-bottom: 44px;
+		font-size: 30px;
+		line-height: 29px;
+	}
+
+	article ul li {
+		padding-left: 21px;
+	}
+
+	th {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	td {
+		padding: 7px 5px 6px 5px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	th[rowspan="2"] {
+		padding: 25px 5px 25px 5px;
+	}
+
+	th[colspan="6"] {
+		padding: 13px 10px 16px 10px;
+	}
+
+	tr td:first-child {
+		padding-right: 10px;
+		text-align: left;
+	}
+
+	#article .order-block {
+		margin-bottom: 98px;
 	}
 }
 
@@ -946,9 +1000,21 @@ display: none !important;
 		margin-left: -58px;
 	}
 
+	.article-container {
+		padding: 49px 117px 106px 116px;
+	}
+
 	.article-container__img-wrapper {
 		max-width: 1097px;
 		margin-bottom: 30px;
+	}
+
+	.article__date {
+		left: -19px;
+	}
+
+	#article .order-block {
+		background-size: 35%;
 	}
 }
 
@@ -987,6 +1053,7 @@ display: none !important;
 	}
 
 	.title-section--article {
+		padding: 0 10px 0 0;
 		font-size: 40px;
 		line-height: 45px;
 	}
@@ -1000,6 +1067,20 @@ display: none !important;
 	.article-container {
 		max-width: 1336px;
 	}
+
+	article div {
+		width: 491px;
+		height: 457px;
+	}
+
+	article h2 + div {
+	  float: right;
+	  margin-left: 37px;
+	}
+
+	#article .order-block__title {
+		line-height: 24px;
+	}
 }
 
 @media (min-width: 1800px) {
@@ -1008,15 +1089,53 @@ display: none !important;
 		flex-grow: 0;
 	}
 
-	/*.col-lg-4 .card__content {
-		max-width: 37.25165562913907%;
-	}*/
-
 	.col-lg-4 .card__link {
 		margin-left: -128px;
 	}
 
 	.col-lg-6 .card__description {
 		padding-right: 110px;
+	}
+
+	table {
+		width: auto;
+	}
+
+	td {
+		padding: 15px 20px 12px 21px;
+		height: 100%;
+		word-break: keep-all;
+	}
+
+	th[rowspan="2"] {
+		padding: 51px 20px 50px 43px;
+	}
+
+	th[colspan="6"] {
+		padding: 23px 20px 33px 20px;
+	}
+
+	tr td:first-child {
+		padding-right: 160px;
+		text-align: left;
+	}
+
+	article div {
+		padding: 0 16px 0 0;
+	}
+
+	article h2 + div {
+	  margin-top: -73px;
+	}
+
+	#article .order-block {
+		max-width: 100%;
+		min-height: 402px;
+		background-size: contain;
+	}
+
+	#article .order-block__inner {
+		max-width: 960px;
+		margin: 0 auto;
 	}
 }
