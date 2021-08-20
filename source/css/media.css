@@ -945,26 +945,27 @@ display: none !important;
 		padding-left: 21px;
 	}
 
-	th {
+	#article th {
+		padding: 9px 0 12px 0;
 		font-size: 18px;
 		line-height: 24px;
 	}
 
-	td {
+	#article td {
 		padding: 7px 5px 6px 5px;
 		font-size: 16px;
 		line-height: 24px;
 	}
 
-	th[rowspan="2"] {
+	#article th[rowspan="2"] {
 		padding: 25px 5px 25px 5px;
 	}
 
-	th[colspan="6"] {
+	#article th[colspan="6"] {
 		padding: 13px 10px 16px 10px;
 	}
 
-	tr td:first-child {
+	#article tr td:first-child {
 		padding-right: 10px;
 		text-align: left;
 	}
@@ -1097,25 +1098,25 @@ display: none !important;
 		padding-right: 110px;
 	}
 
-	table {
+	#article table {
 		width: auto;
 	}
 
-	td {
+	#article td {
 		padding: 15px 20px 12px 21px;
 		height: 100%;
 		word-break: keep-all;
 	}
 
-	th[rowspan="2"] {
+	#article th[rowspan="2"] {
 		padding: 51px 20px 50px 43px;
 	}
 
-	th[colspan="6"] {
+	#article th[colspan="6"] {
 		padding: 23px 20px 33px 20px;
 	}
 
-	tr td:first-child {
+	#article tr td:first-child {
 		padding-right: 160px;
 		text-align: left;
 	}
