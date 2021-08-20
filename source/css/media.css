@@ -875,6 +875,7 @@ display: none !important;
 
 	.card__img-wrapper {
 		margin:  0;
+		height: 419px;
 	}
 
 	.col-lg-6 .card__img-wrapper {
@@ -1062,7 +1063,13 @@ display: none !important;
 	.card__content {
 		max-width: 50%;
 		margin: 0;
-		padding: 5.291005291005291% 5.079365079365079% 5.291005291005291% 6.772486772486772%;
+		padding: 38px 48px 24px 64px;
+	}
+
+	.col-lg-4 .card__content {
+		max-width: 53%;
+		padding-right: 35px;
+		padding-left: 40px;
 	}
 
 	.article-container {
