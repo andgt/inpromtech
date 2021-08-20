@@ -1588,7 +1588,7 @@ color: rgba(255, 255, 255, 0.3);
 	display: inline-block;
 	object-fit: cover;
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 }
 
 .card__img-wrapper::before {
