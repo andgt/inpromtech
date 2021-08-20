@@ -1874,7 +1874,7 @@ article div ~ ul li::before {
 
 #article th,
 #article td {
-	border: 1px solid #5F5F62;
+	border: 2px solid #5F5F62;
 	word-break: break-word;
 }
 
