@@ -875,7 +875,7 @@ display: none !important;
 
 	.card__img-wrapper {
 		margin:  0;
-		height: 419px;
+		height: 100%;
 	}
 
 	.col-lg-6 .card__img-wrapper {
@@ -1078,11 +1078,11 @@ display: none !important;
 
 	article div {
 		width: 491px;
-		height: 457px;
 	}
 
 	article h2 + div {
 	  float: right;
+	  margin-top: -73px;
 	  margin-left: 37px;
 	}
 
@@ -1092,6 +1092,10 @@ display: none !important;
 }
 
 @media (min-width: 1800px) {
+	.card__img-wrapper {
+		height: 419px;
+	}
+
 	.col-lg-4 .card__img-wrapper {
 		width: 48.66887417218543%;
 		flex-grow: 0;
@@ -1130,10 +1134,6 @@ display: none !important;
 
 	article div {
 		padding: 0 16px 0 0;
-	}
-
-	article h2 + div {
-	  margin-top: -73px;
 	}
 
 	#article .order-block {
